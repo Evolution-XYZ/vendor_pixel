@@ -36,7 +36,9 @@ PRODUCT_PACKAGES += \
     PixelDocumentsUIGoogleOverlay \
     PixelFlipendoOverlay \
     PixelFwOverlay \
-    PixelLauncherCustomOverlay \
+    PixelLauncherIconsOverlay \
+    PixelLauncherOverlayBlur \
+    PixelLauncherOverlayCustom \
     PixelSettingsProviderOverlay \
     PixelSetupWizardOverlay \
     PixelTeleServiceOverlay \
