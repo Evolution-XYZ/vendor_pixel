@@ -16,6 +16,7 @@
 
 # Google Overlays
 PRODUCT_PACKAGES += \
+    AvatarPickerPixelOverlay \
     CellBroadcastReceiverOverlay \
     CellBroadcastServiceOverlay \
     DMServiceOverlay \
@@ -23,19 +24,19 @@ PRODUCT_PACKAGES += \
     GoogleDeviceLockControllerOverlay \
     GoogleDialerConfOverlay \
     GoogleHealthConnectOverlay \
+    GooglePermissionControllerOverlay \
     GoogleWebViewOverlay \
+    ManagedProvisioningPixelOverlay \
     MediaProviderOverlay \
-    PearlOverlay2024 \
     PixelAccessibilityMenuOverlay \
     PixelBuiltInPrintServiceOverlay \
     PixelConfigOverlay2018 \
     PixelConfigOverlay2019 \
     PixelConfigOverlay2019Midyear \
     PixelConfigOverlayCommon \
+    PixelConnectivityOverlay2024 \
     PixelContactsProviderOverlay \
     PixelDocumentsUIGoogleOverlay \
-    PixelFlipendoOverlay \
-    PixelFwOverlay \
     PixelLauncherIconsOverlay \
     PixelLauncherOverlayCustom \
     PixelSettingsProviderOverlay \
@@ -43,17 +44,12 @@ PRODUCT_PACKAGES += \
     PixelTeleServiceOverlay \
     PixelTelecomOverlay \
     PixelTelephonyProviderOverlay \
+    PixelTetheringOverlay2021 \
     SettingsGoogleOverlay \
-    SystemUIGXOverlay \
+    SettingsGoogleOverlayEvolutionX \
     SystemUIGoogleOverlay \
     WildlifeSettingsVpnOverlay2022 \
     WildlifeSysuiVpnOverlay2022
-
-ifneq ($(filter sailfish marlin walleye taimen blueline crosshatch sargo bonito flame coral sunfish bramble redfin barbet oriole raven bluejay panther cheetah lynx tangorpro felix shiba husky akita comet tokay caiman komodo, $(LINEAGE_BUILD)),)
-PRODUCT_PACKAGES += \
-    ManagedProvisioningPixelOverlay \
-    PixelBatteryHealthOverlay
-endif
 
 ifneq ($(filter flame coral redfin oriole raven panther cheetah lynx felix shiba husky akita comet tokay caiman komodo, $(LINEAGE_BUILD)),)
 PRODUCT_PACKAGES += \
