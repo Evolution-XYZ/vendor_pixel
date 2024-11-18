@@ -19,6 +19,5 @@ runtime_resource_overlay {
     theme: "SystemUIGXOverlay",
     certificate: "platform",
     sdk_version: "current",
-    product_specific: true,
-    aaptflags: ["--keep-raw-values"],
+    product_specific: true
 }
