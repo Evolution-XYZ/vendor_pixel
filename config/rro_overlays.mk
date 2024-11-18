@@ -16,6 +16,7 @@
 
 # Google Overlays
 PRODUCT_PACKAGES += \
+    AvatarPickerPixelOverlay \
     CellBroadcastReceiverOverlay \
     CellBroadcastServiceOverlay \
     DMServiceOverlay \
@@ -23,45 +24,31 @@ PRODUCT_PACKAGES += \
     GoogleDeviceLockControllerOverlay \
     GoogleDialerConfOverlay \
     GoogleHealthConnectOverlay \
+    GooglePermissionControllerOverlay \
     GoogleWebViewOverlay \
+    ManagedProvisioningPixelOverlay \
     MediaProviderOverlay \
-    PearlOverlay2024 \
-    PixelAccessibilityMenuOverlay \
-    PixelBuiltInPrintServiceOverlay \
+    PixelAccessibilityMenu \
     PixelConfigOverlay2018 \
     PixelConfigOverlay2019 \
     PixelConfigOverlay2019Midyear \
     PixelConfigOverlayCommon \
     PixelContactsProviderOverlay \
     PixelDocumentsUIGoogleOverlay \
-    PixelFlipendoOverlay \
-    PixelFwOverlay \
+    PixelFrameworkOverlay \
     PixelLauncherIconsOverlay \
     PixelLauncherOverlayBlur \
     PixelLauncherOverlayCustom \
+    PixelPrintServiceOverlay \
     PixelSettingsProviderOverlay \
     PixelSetupWizardOverlay \
+    PixelSystemUIGoogleOverlay \
     PixelTeleServiceOverlay \
     PixelTelecomOverlay \
     PixelTelephonyProviderOverlay \
+    PixelTetheringOverlay2021 \
     SettingsGoogleOverlay \
+    SettingsGoogleOverlayEvolutionX \
     SystemUIGXOverlay \
-    SystemUIGoogleOverlay \
     WildlifeSettingsVpnOverlay2022 \
     WildlifeSysuiVpnOverlay2022
-
-ifneq ($(filter sailfish marlin walleye taimen blueline crosshatch sargo bonito flame coral sunfish bramble redfin barbet oriole raven bluejay panther cheetah lynx tangorpro felix shiba husky akita comet tokay caiman komodo, $(LINEAGE_BUILD)),)
-PRODUCT_PACKAGES += \
-    ManagedProvisioningPixelOverlay \
-    PixelBatteryHealthOverlay
-endif
-
-ifneq ($(filter flame coral redfin oriole raven panther cheetah lynx felix shiba husky akita comet tokay caiman komodo, $(LINEAGE_BUILD)),)
-PRODUCT_PACKAGES += \
-    DreamlinerOverlay
-endif
-
-ifneq ($(filter panther cheetah lynx felix shiba husky akita tokay caiman komodo, $(LINEAGE_BUILD)),)
-PRODUCT_PACKAGES += \
-    ClearCallingOverlay
-endif

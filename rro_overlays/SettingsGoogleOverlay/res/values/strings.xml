@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2024 The hentaiOS Project and its Proprietors.
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
 <resources>
+    <!-- Email address for the homepage contextual cards feedback -->
+    <string name="config_contextual_card_feedback_email">contextual-settings-homepage-feedback@google.com</string>
+
+    <!-- Google Packages -->
+    <string name="account_type">com.google</string>
+    <string name="account_confirmation_class">com.google.android.gms.auth.uiflows.factoryreset.PreFactoryResetActivity</string>
+    <string name="account_confirmation_package">com.google.android.gms</string>
+    <string name="config_account_intent_uri">intent:#Intent;action=com.android.settings.action.VIEW_ACCOUNT;category=android.intent.category.DEFAULT;launchFlags=0x8000;S.extra.callingPackageName=com.android.settings;end</string>
+    <string name="config_battery_prediction_authority" translatable="false">com.google.android.apps.turbo.bluetooth.estimated_time_remaining</string>
+    <string name="config_bluetooth_device_settings_uri">content://com.google.android.apps.wearables.maestro.companion/settings_slice?addr=%1$s</string>
+    <string name="config_contacts_package_name" translatable="false">com.google.android.contacts</string>
+    <string name="config_deletion_helper_package">com.google.android.storagemanager</string>
+    <string name="config_emergency_intent_action">com.google.android.safetyhub.SAFETY_HUB</string>
+    <string name="config_emergency_package_name">com.google.android.apps.safetyhub</string>
+    <string name="config_grayscale_settings_intent">intent:#Intent;action=com.google.android.apps.wellbeing.action.WIND_DOWN;launchFlags=0x10000000;end</string>
+    <string name="config_nearby_devices_slice_uri">content://com.google.android.gms.nearby.fastpair/device_status_list_item</string>
+    <string name="config_non_public_slice_query_uri" translatable="false">content://com.android.settings.slices/settings_internal_slices</string>
+    <string name="config_rtt_setting_intent_action" translatable="false">com.android.dialer.rtt.settings.impl.gateway.ACTION_OPEN_RTT_SETTINGS</string>
+    <string name="config_rtt_setting_package_name" translatable="false">com.google.android.dialer</string>
+    <string name="config_settingsintelligence_log_action">com.google.android.settings.intelligence.contextualcards.CARD_INTERACTION_RECEIVER</string>
+    <string name="config_settingsintelligence_package_name">com.google.android.settings.intelligence</string>
+    <string name="config_wallpaper_picker_action">android.intent.action.MAIN</string>
+    <string name="config_wallpaper_picker_class">com.google.android.apps.wallpaper.picker.CategoryPickerActivity</string>
+    <string name="config_wallpaper_picker_package">com.google.android.apps.wallpaper</string>
+    <string name="config_sound_picker_package_name" translatable="false">com.google.android.soundpicker</string>
+    <string name="config_styles_and_wallpaper_picker_action">android.intent.action.SET_WALLPAPER</string>
+    <string name="config_styles_and_wallpaper_picker_class">com.android.customization.picker.CustomizationPickerActivity</string>
+    <string name="oem_preferred_feedback_reporter">com.google.android.gms</string>
+
     <!-- Help URI -->
     <string name="help_uri_about">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_about;end</string>
     <string name="help_uri_about_phone_v2">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_about_device;end</string>
