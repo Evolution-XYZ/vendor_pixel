@@ -1,5 +1,5 @@
 <!--
-Copyright (C) 2024 The Android Open Source Project
+Copyright (C) 2025 The Android Open Source Project
 
    Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -19,12 +19,17 @@ Copyright (C) 2024 The Android Open Source Project
     android:viewportWidth="192"
     android:viewportHeight="192">
   <path
-      android:pathData="M122.387,114.264s55.572,-39.438 46.608,-91.424c-51.986,-7.171 -89.632,46.608 -89.632,46.608l-34.06,1.793 -23.304,37.645 7.171,8.963 28.682,-7.171 25.097,25.097 -8.963,25.097 8.963,8.963 37.955,-21.415z"
+      android:pathData="M131,61m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
       android:strokeLineJoin="round"
-      android:strokeWidth="11.999865"
+      android:strokeWidth="10"
       android:fillColor="#00000000"
-      android:strokeColor="#000"/>
+      android:strokeColor="#000"
+      android:strokeLineCap="round"/>
   <path
-      android:pathData="M141.525,50.507m-11.7,0a11.7,11.7 0,1 1,23.401 0a11.7,11.7 0,1 1,-23.401 0"
-      android:fillColor="#000"/>
+      android:pathData="m22,110 l20,-35 39,-2c21,-27 45,-51 89,-51M82,170l35,-20 2,-39c27,-21 51,-45 51,-89M82,170l-6,-6 10,-28 -30,-30 -28,10 -6,-6"
+      android:strokeLineJoin="round"
+      android:strokeWidth="12"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"
+      android:strokeLineCap="round"/>
 </vector>
